@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #222;
+  background: #f2f2f2;
+}
+
+.container {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.eyebrow,
+.intro,
+footer {
+  color: #666;
+  font-size: 14px;
+}
+
+.placar {
+  padding: 20px;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.badge {
+  color: #26734d;
+  font-size: 12px;
+}
+
+label {
+  display: block;
+  margin: 15px 0 5px;
+}
+
+input {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  font: inherit;
+}
+
+.nome-time,
+.numero,
+.legenda {
+  text-align: center;
+  overflow-wrap: anywhere;
+}
+
+.nome-time {
+  font-weight: bold;
+}
+
+.numero {
+  margin: 10px 0;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+button {
+  width: 100%;
+  margin-top: 10px;
+  padding: 12px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  background: #eee;
+  font: inherit;
+  cursor: pointer;
+}
+
+.principal {
+  background: #26734d;
+  color: white;
+  border-color: #26734d;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.explicacao {
+  margin-top: 25px;
+  font-size: 14px;
+}
+
+footer {
+  margin-top: 25px;
+  text-align: center;
+}
