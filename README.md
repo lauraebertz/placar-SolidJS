@@ -1,47 +1,48 @@
-# Placar interativo com SolidJS
+ Placar interativo com SolidJS
 
-Demonstração do seminário de Desenvolvimento Web 1, IFRS — Campus Farroupilha.
-Professor: Rafael Vieira Coelho.
+Projeto desenvolvido para o seminário de Desenvolvimento Web 1 do IFRS — Campus Farroupilha, com orientação do professor Rafael Vieira Coelho.
 
-## Integrantes
+ Integrantes
 
 - Laura Pereira Ebertz
 - Arthur de Morais Clavijo
 
-## Objetivo e funcionalidades
+ Sobre o projeto
 
-Demonstrar estado local, fluxo de dados explícito, eventos e reatividade de grão fino.
-É possível alterar o nome do time, adicionar um ponto, corrigir um ponto e zerar a pontuação.
-A pontuação não fica negativa. Recarregar a página restaura o nome IFRS e os pontos em zero.
+Este projeto é um placar simples que permite alterar o nome de um time e controlar sua pontuação.
+O objetivo é demonstrar como o SolidJS atualiza a interface quando os dados mudam. Ao marcar um ponto, por exemplo, o número é atualizado sem recarregar a página.
 
-## Tecnologias e requisitos
+ Como usar
 
-- SolidJS 1.x, JavaScript e JSX.
-- Vite 6.x com vite-plugin-solid 2.x.
-- CSS responsivo, sem biblioteca de estilos.
-- Node.js 22.12 ou superior e npm, para desenvolvimento.
-- Navegador atualizado (Chrome, Edge, Firefox ou Safari).
-- Internet para baixar dependências na primeira instalação.
+Você pode acessar o placar pelo link abaixo: 
 
-A demonstração utiliza CSR: a interface é construída no navegador.
-Não utiliza SolidStart, servidor de aplicação, banco de dados, roteamento ou estado global.
+https://lauraebertz.github.io/placar-SolidJS/
 
-## Como executar
+Com o site aberto:
 
-Abra o terminal na pasta que contém o package.json.
+1. Digite o nome do time no campo indicado.
+2. Clique em **Marcar ponto** para adicionar um ponto.
+3. Clique em **Corrigir ponto** para retirar um ponto lançado por engano.
+4. Clique em **Zerar placar** para reiniciar a pontuação.
 
-Instale as dependências:
+A pontuação não fica negativa. Quando está em zero, os botões de corrigir e zerar ficam desativados.
+Os dados não são salvos: ao atualizar ou reabrir a página, o nome volta para **IFRS** e a pontuação retorna a **zero**.
 
-```bash
-npm install
-```
+ Tecnologias utilizadas
 
-Inicie a aplicação:
+- **SolidJS:** controla os dados e as atualizações da interface.
+- **JavaScript e JSX:** definem o comportamento e a estrutura do placar.
+- **CSS:** organiza a aparência da página.
+- **Vite:** executa o projeto durante o desenvolvimento e prepara os arquivos para publicação.
+- **GitHub Pages:** disponibiliza o site na internet.
 
-```bash
-npm run dev
-```
+O projeto utiliza SolidJS 1.x, Vite 6.x e vite-plugin-solid 2.x.
+A interface é construída no navegador, uma abordagem chamada **CSR (renderização no cliente)**. Os dados do placar ficam no próprio componente, demonstrando o uso de **estado local**.
+A **reatividade de grão fino** do SolidJS permite atualizar as partes da interface que dependem dos dados alterados. O projeto não utiliza SolidStart, banco de dados ou estado global.
 
-Abra o endereço informado no terminal.
+ Links
+- SITE DIRETO (https://lauraebertz.github.io/placar-SolidJS/)
+- CÓDIGO NO REPOSITÓRIO (https://github.com/lauraebertz/placar-SolidJS)
 
-No PowerShell, caso ocorra bloqueio do npm.ps1, use npm.cmd no lugar de npm.
+- SITE DIRETO (https://lauraebertz.github.io/placar-SolidJS/)
+- CÓDIGO NO REPOSITÓRIO (https://github.com/lauraebertz/placar-SolidJS)
