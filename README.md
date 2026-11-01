@@ -41,8 +41,7 @@ A interface é construída no navegador, uma abordagem chamada **CSR (renderiza�
 A **reatividade de grão fino** do SolidJS permite atualizar as partes da interface que dependem dos dados alterados. O projeto não utiliza SolidStart, banco de dados ou estado global.
 
  Links
-- SITE DIRETO (https://lauraebertz.github.io/placar-SolidJS/)
-- CÓDIGO NO REPOSITÓRIO (https://github.com/lauraebertz/placar-SolidJS)
+
 
 - SITE DIRETO (https://lauraebertz.github.io/placar-SolidJS/)
 - CÓDIGO NO REPOSITÓRIO (https://github.com/lauraebertz/placar-SolidJS)
